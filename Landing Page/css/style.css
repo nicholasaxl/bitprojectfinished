@@ -1,0 +1,113 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+	background-color: #342752;
+}
+
+.nav-item {
+	font-size: 30px;
+}
+.nav-item:hover {
+	text-decoration: underline;
+}
+
+.padding {
+	padding: 50px;
+}
+
+#home .row .col h1{
+	margin-top: 400px;
+	margin-bottom: 50px;
+	color: #ADD8E6;
+	font-weight: bold;
+	font-size: 70px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;  
+}
+#home .row .col h3{
+	margin-bottom: 400px;
+	color: #ADD8E6;
+	text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;  
+    font-size: 37px;
+    font-style: italic;
+}
+
+#about h1 {
+	font-size: 50px;
+	margin-bottom: 70px;
+}
+
+#about h2 {
+	font-size: 50px;
+	margin-bottom: 70px;
+}
+
+#about h3 {
+	font-size: 25px;
+}
+
+#vision .row .col h3{
+	padding: 100px;
+	color: #40dbd6;
+	font-weight: normal;
+	font-size: 55px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;  
+}
+
+#vision2 {
+	background-color: #40dbd6; 
+	margin-bottom: 0px;
+}
+
+#vision2 h1 {
+	font-size: 50px;
+	padding: 60px;
+}
+
+#vision2 h2 {
+	font-size: 40px;
+}
+
+
+#vision2 h3 {
+	font-size: 25px;
+}
+
+.footer {
+	background-color: #342752;
+	color: white;
+	font-size: 25px;
+	padding: 30px;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
